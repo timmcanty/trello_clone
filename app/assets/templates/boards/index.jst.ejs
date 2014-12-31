@@ -1,0 +1,5 @@
+<% boards.forEach( function(board) {%>
+  <li>
+    <a href="#/boards/<%= board.id %>"><%= board.get('title') %></a>
+  </li>
+<% }) %>
